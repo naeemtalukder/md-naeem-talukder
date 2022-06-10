@@ -7,7 +7,8 @@ import Footer from './Page/Sheard/Footer';
 import { Route, Routes } from 'react-router-dom';
 import About from './Page/Home/About';
 import Nabvar from './Page/Sheard/Nabvar';
-import Projects from './Page/Home/Projects';
+import Blogs from './Page/Home/Blogs';
+import NotFound from './Page/Sheard/NotFound';
 
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Home></Home>}></Route>
             <Route path='/about' element={<About></About>}></Route>
-            <Route path='/project' element={<Projects></Projects>}></Route>
+            <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+            <Route path='*' element={<NotFound></NotFound>}></Route>
           </Routes>
           <Footer></Footer>
         </div>

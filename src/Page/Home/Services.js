@@ -9,19 +9,19 @@ const allServices = [
         title: 'Web Development',
         icon: <VscCode className="w-full h-full" />,
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quia harum eaque, quae laboriosam quisquam distinctio.',
+            "I am working on frontend technologies and also working on backend technologies.S I'm highly passionate about MongoDB, Express.js, React JS, Node.js.",
     },
     {
         title: 'Web Design',
         icon: <MdWeb className="w-full h-full" />,
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quia harum eaque, quae laboriosam quisquam distinctio.',
+            'I will make your website with unique design by useing Tailwind Css and other React Components library.',
     },
     {
         title: 'Ui Design',
         icon: <FaHandHoldingHeart className="w-full h-full" />,
         description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum quia harum eaque, quae laboriosam quisquam distinctio.',
+            "Users will be quite satisfied with the design and use, and your website will be made attractive, and you will be satisfied.",
     }
 
 ]

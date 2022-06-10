@@ -3,19 +3,18 @@ import SectionTitle from './SectionTitle';
 
 const About = () => {
     return (
-        <div id='#about' className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-12">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-12">
             <img
                 src={`https://i.ibb.co/QFQTHrN/Pics-Art-10-13-12-01-59-removebg-preview.png`}
                 alt="Naeem"
                 className="w-full md:w-6/12 rounded-lg object-cover"
             />
             <div className="w-full md:w-6/12">
-                <SectionTitle id="about">About Me</SectionTitle>
-                <p className="text-md text-gray-600 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-                    veniam dolor consectetur pariatur explicabo, iure nulla. Dolor
-                    debitis, natus cum ad, fugiat excepturi minima culpa atque modi
-                    accusantium vel voluptatem?
+                <SectionTitle>About Me</SectionTitle>
+                <h1 className='text-xl md:text-2xl mb-1 md:mb-3 text-indigo-600 font-semibold dark:text-indigo-500'>Hi, I'm Md. Naeem Talukder</h1>
+                <p className='text-md md:text-xl max-w-md mb-3 text-gray-600 dark:text-gray-300'>Web Developer | MERN Stack Developer</p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">
+                    I am Md. Naeem Talukder. I am a Junior Front-end web developer. Now, I am working on frontend technologies and also working on backend technologies. I have completed some simple projects using react.js. I'm highly passionate about MongoDB, Express.js, React JS, Node.js. I love to do Coding.
                 </p>
                 <a
                     href="mailto:webcifar.com"

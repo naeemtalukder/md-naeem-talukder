@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="py-5 bg-slate-800 text-center text-gray-300 rounded-t-lg">
-            <a href="#hero" className="block text-xl md:text-2xl font-semibold">
+            <a href="/" className="block text-xl md:text-2xl font-semibold">
                 Naeem Talukder
             </a>
             <a
-                href="mailto:webcifar@gmail.com"
+                href="mdnaeemtalukder1@emial.com"
                 className="text-sm md:text-md hover:text-indigo-500"
             >
                 mdnaeemtalukder1@emial.com
