@@ -1,8 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import HeroSection from './Page/Home/HeroSection';
-import Services from './Page/Home/Services';
+
 import { useEffect, useState } from 'react';
+import Home from './Page/Home/Home';
+import Footer from './Page/Sheard/Footer';
+import { Route, Routes } from 'react-router-dom';
+import About from './Page/Home/About';
+import Nabvar from './Page/Sheard/Nabvar';
+import Projects from './Page/Home/Projects';
+
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -38,8 +44,13 @@ function App() {
       </button>
       <div className='font-inter bg:white dark:bg-slate-900'>
         <div className="max-w-5xl mx-auto w-11/12">
-          <HeroSection></HeroSection>
-          <Services></Services>
+          <Nabvar></Nabvar>
+          <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/about' element={<About></About>}></Route>
+            <Route path='/project' element={<Projects></Projects>}></Route>
+          </Routes>
+          <Footer></Footer>
         </div>
       </div>
     </>
