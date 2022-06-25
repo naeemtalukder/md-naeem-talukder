@@ -1,10 +1,10 @@
 import React from 'react';
 
 const ProjectsItem = ({ project }) => {
-    const { title, imgUrl, tech, workUrl } = project;
+    const { title, imgUrl, tech, liveUrl } = project;
     return (
         <a
-            href={workUrl}
+            href={liveUrl}
             target="_blank"
             rel="noreferrer"
             className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden"

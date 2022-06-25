@@ -8,27 +8,27 @@ const allProjects = [
         imgUrl:
             'https://i.ibb.co/bsxv9wm/bike-Manufacture.png',
         tech: ['React JS', 'Firebase', 'Heroku', 'Tailwind', 'DaisyUI'],
-        workUrl: 'https://github.com/programming-hero-web-course1/manufacturer-website-client-side-naeemtalukder.git/',
+        liveUrl: 'https://bike-menufacture.web.app',
     },
     {
         title: "Bike Warehouse App",
         imgUrl:
-            'https://i.ibb.co/zRVM6QD/bikew.png',
+            'https://i.ibb.co/Mh83Pv0/screencapture-localhost-3000-2022-06-24-23-56-07.png',
         tech: ['HTML', 'CSS', 'Netlify'],
-        workUrl: 'https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-naeemtalukder',
+        liveUrl: 'https://coruscating-paprenjak-937b30.netlify.app',
     },
     {
         title: "Dr. Azaz Ahmed",
         imgUrl:
-            'https://i.ibb.co/LRkc2dD/doctor.png',
+            'https://i.ibb.co/2hyYjh6/screencapture-localhost-3000-2022-06-25-03-47-20.png',
         tech: ["React JS", "Firebase", "Bootstrap"],
-        workUrl: "https://github.com/programming-hero-web-course-4/independent-service-provider-naeemtalukder.git",
+        liveUrl: "https://majestic-lebkuchen-6ca8f3.netlify.app",
     },
     {
         title: 'Product Analysis Website',
         imgUrl: `https://i.ibb.co/yn9xT3c/laptop.png`,
         tech: ['React JS', 'Tailwind CSS', 'CSS'],
-        workUrl: 'https://majestic-lebkuchen-6ca8f3.netlify.app',
+        liveUrl: 'https://adorable-nougat-9e5494.netlify.app',
     }
 ];
 
