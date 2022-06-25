@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 py-12">
             <img
-                src={`https://i.ibb.co/QFQTHrN/Pics-Art-10-13-12-01-59-removebg-preview.png`}
+                src={`https://images.pexels.com/photos/12605295/pexels-photo-12605295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
                 alt="Naeem"
                 className="w-full md:w-6/12 rounded-lg object-cover"
             />
