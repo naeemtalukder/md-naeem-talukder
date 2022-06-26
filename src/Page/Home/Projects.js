@@ -25,7 +25,7 @@ const allProjects = [
         title: "Dr. Azaz Ahmed",
         imgUrl:
             'https://i.ibb.co/2hyYjh6/screencapture-localhost-3000-2022-06-25-03-47-20.png',
-        tech: ['React.js', 'React Bootstrap', 'Firebase', 'React Toost', 'React Hook Form'],
+        tech: ['React.js', 'React Bootstrap', 'React Toost', 'Firebase', 'React Hook Form'],
         liveUrl: "https://majestic-lebkuchen-6ca8f3.netlify.app",
         clientUrl: 'https://github.com/naeemtalukder/doctor-azaz-ahmed.git',
 
