@@ -8,7 +8,7 @@ const ProjectsItem = ({ project }) => {
         >
             <img
                 src={imgUrl}
-                alt="work"
+                alt="Project UI"
                 className="w-full h-50 md:h-64 object-cover"
             />
             <div className="w-full p-5 text-gray-600 dark:text-gray-300 ">

@@ -11,7 +11,7 @@ const HeroSection = () => {
             </div>
             <img
                 src={`https://avatars.githubusercontent.com/u/96875994?s=400&u=37980093c3219c4318e465b09647c663a7174330&v=4`}
-                alt="Naeem"
+                alt="Naeem Talukder"
                 className="w-full md:w-6/12 rounded-lg object-cover"
             />
         </div>
