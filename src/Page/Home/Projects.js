@@ -17,7 +17,7 @@ const allProjects = [
         imgUrl:
             'https://i.ibb.co/CwTV8kR/screencapture-localhost-3000-2022-06-24-23-56-07.png',
         tech: ['React.js', 'React Bootstrap', 'Firebase', 'CSS', 'React Toost', 'React Hook Form', 'Node.js', 'Express.js', 'MongoDB'],
-        liveUrl: 'https://coruscating-paprenjak-937b30.netlify.app',
+        liveUrl: 'https://bike-menufacture.web.app/',
         clientUrl: 'https://github.com/naeemtalukder/bike-warehouse-menegement.git',
         serverUrl: 'https://github.com/naeemtalukder/bike-warehouse-management-server.git',
     },
