@@ -1,16 +1,18 @@
 import React from 'react';
 
 const ProjectsItem = ({ project }) => {
-    const { title, imgUrl, tech, liveUrl, clientUrl, serverUrl } = project;
+    const { title, imgUrl, tech, liveUrl, clientUrl, serverUrl ,fullImg} = project;
     return (
         <div
             className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden"
         >
-            <img
+            <a href={fullImg} target="_blank" rel="noopener noreferrer">
+                <img
                 src={imgUrl}
                 alt="Project UI"
                 className="w-full h-50 md:h-64 object-cover"
-            />
+                />
+            </a>
             <div className="w-full p-5 text-gray-600 dark:text-gray-300 ">
                 <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
                     {title}
